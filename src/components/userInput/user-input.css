@@ -1,0 +1,24 @@
+.user-inputs{
+    background-color: rgba(46, 107, 89, 0.76);
+    height: 20rem;
+    width: 40rem;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.user-inputs div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.user-inputs div input{
+    background-color: rgba(46, 107, 89, 0.548);
+    border-radius: 5px;
+    padding: .5rem;
+    margin: 2rem auto;
+    border: 1px solid white;
+}
